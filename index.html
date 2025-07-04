@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" class="logo" />
+    <nav>
+      <ul class="nav-links">
+        <li>Home</li>
+        <li>TV Shows</li>
+        <li>Movies</li>
+        <li>Latest</li>
+        <li>My List</li>
+      </ul>
+    </nav>
+    <div class="profile-icon">👤</div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <img src="assets/posters/banner.jpg" alt="Featured" />
+    <div class="banner-content">
+      <h1>Featured Thriller</h1>
+      <p>This summer, everything changes. Experience the thrill.</p>
+      <div class="banner-buttons">
+        <button class="btn">▶ Play</button>
+        <button class="btn">+ My List</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Movie Rows -->
+  <main class="rows">
+    <div class="row"><h2>Trending Now</h2><div class="posters" id="trending"></div></div>
+    <div class="row"><h2>Top Rated</h2><div class="posters" id="toprated"></div></div>
+    <div class="row"><h2>Action</h2><div class="posters" id="action"></div></div>
+    <div class="row"><h2>Rom-Com</h2><div class="posters" id="romcom"></div></div>
+    <div class="row"><h2>Comedy</h2><div class="posters" id="comedy"></div></div>
+    <div class="row"><h2>Thriller</h2><div class="posters" id="thriller"></div></div>
+    <div class="row"><h2>Documentary</h2><div class="posters" id="documentary"></div></div>
+  </main>
+
+  <footer>
+    <p>Netflix Clone &copy; 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
